@@ -22,6 +22,7 @@ public class Test05 {
             System.out.println(url);
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
+            //1234235345346425654367546756756
         }
     }
 }
