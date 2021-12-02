@@ -23,6 +23,7 @@ public class Test05 {
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
             //1234235345346425654367546756756
+            //1231342154
         }
     }
 }
