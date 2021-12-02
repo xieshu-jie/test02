@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--内容区 -->
+<div class="content-info" style="margin: 5px 5px 5px 5px;">
+    <!--条件区 -->
+    <div class="field-module-title"><h3 onclick="toggleModule($(this));">采购件清单</h3></div>
+    <div>
+        <input type="button" class="button" onclick="addItemTabel();" value="添加"/>
+        <!--<#&#45;&#45;<input type="button" id = "${fldKey}Save" class="button" onclick="${fldKey}_save();" value="保存"/>&ndash;&gt;-->
+        <div style="margin: 5px 5px 5px 5px;">
+        </div>
+        <div id="itemTable" class="tableBody" style="float: left;">
+
+        </div>
+    </div>
+    <input type="hidden" name="partData" id="partData" value="">
+</div>
+</body>
+</html>
