@@ -21,6 +21,7 @@ public class Test05 {
             String url = "https://iam.handeaxle.com:8882/sso/oauth2/authorize?client_id=APP004&redirect_uri=" + URLEncoder.encode(URL_OAM,"UTF-8");
             System.out.println(url);
             //1234235443
+            //123214
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
             //1234235345346425654367546756756
